@@ -5,7 +5,7 @@ const SetUp = () => {
     <div className="setUp">
       <div className="container">
         <div className="setUp__box">
-          <h2 className="setUp__title title">Set Up</h2>
+          <h2 className="setUp__title title">Setup</h2>
           <div className="setUp__item">
             <p className="setUp__detail">
               Как в окне ( <span>Guest Cards</span> ) добавить еше некоторое

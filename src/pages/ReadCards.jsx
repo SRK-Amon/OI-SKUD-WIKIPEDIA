@@ -10,7 +10,7 @@ const ReadCards = () => {
           <div className="rc__box--info">
             <h3 className="info__title">Как увидеть информацию ключ карты</h3>
             <p className="info__text">
-              1)Тут все просто и кортоко , поставьте на Encoder ту ключ карту от
+              1)Тут все просто и коротко , поставьте на Encoder ту ключ карту , от
               которой хотите увидеть информацию.
             </p>
             <p className="info__text">

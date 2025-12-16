@@ -13,7 +13,7 @@ const Nav = () => {
             </li>
             <li>
               <NavLink to="/setUp" className="nav__link">
-                Set Up
+                Setup
               </NavLink>
             </li>
             <li>
