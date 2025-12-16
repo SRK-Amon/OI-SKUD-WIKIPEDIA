@@ -1,6 +1,6 @@
 import Details from "../pages/Details";
 import LogIn from "../pages/LogIn";
-import About from "../pages/about";
+import About from "../pages/About";
 
 const Start = () => {
   return (
