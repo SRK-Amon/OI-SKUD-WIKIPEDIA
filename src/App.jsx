@@ -1,12 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import SetUp from "./pages/SetUp.jsx";
-import GuestCards from "./pages/GuestCards.jsx";
-import HomeLayout from "./Layouts/HomeLayout.jsx";
-import ModalWindow from "./Layouts/ModalWindow.jsx";
-import SnowEffect from "./Layouts/SnowEffect.jsx";
-import Start from "./components/Start.jsx";
-import FunctionCards from "./pages/FunctionCards.jsx";
-import ReadCards from "./pages/ReadCards.jsx";
+import SetUp from "./pages/SetUp";
+import GuestCards from "./pages/GuestCards";
+import HomeLayout from "./Layouts/HomeLayout";
+import ModalWindow from "./Layouts/ModalWindow";
+import SnowEffect from "./Layouts/SnowEffect";
+import Start from "./components/Start";
+import FunctionCards from "./pages/FunctionCards";
+import ReadCards from "./pages/ReadCards";
+
 const App = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const App = () => {
             <Route path="/guestCards" element={<GuestCards />} />
             <Route path="/functionCards" element={<FunctionCards />} />
             <Route path="/readCards" element={<ReadCards />} />
-          </Route>
+            </Route>
         </Routes>
       </BrowserRouter>
     </>
