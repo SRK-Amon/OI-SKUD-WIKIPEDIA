@@ -55,7 +55,8 @@
                 padding: 20px 8px;
 
             }
-            .nav__others{
+
+            .nav__others {
                 width: 50px;
                 height: 50px;
                 cursor: pointer;
@@ -512,13 +513,16 @@
 
 .rc {
     padding: 20px 0;
-    &__title{
+
+    &__title {
         margin-bottom: 20px;
     }
+
     &__box {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
         &--info {
             width: 30%;
             display: flex;
